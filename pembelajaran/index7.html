@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar HTML (7)</title>
+    </head>
+    <body>
+       <h1>Tabel</h1> 
+
+        <!-- <tr> baris -->
+        <!-- <td> isi data -->
+        <!--  <th> header -->
+
+        <h4>Tabel standar</h4>
+         <table border="1">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+         </table>
+
+         <h4>dengan header</h4>
+
+         <table border="1">
+            <tr>
+                <th>Senin</th>
+                <td>10.00</td>
+                <td>12.00</td>
+                <td>14.00</td>
+                <td>16.00</td>
+            </tr>
+            <tr>
+                <th>Selasa</th>
+                <td>10.00</td>
+                <td>12.00</td>
+                <td>14.00</td>
+                <td>16.00</td>
+            </tr>
+         </table>
+
+        <br>
+
+         <table border="1">
+            <th>Senin</th>
+            <th>selasa</th>
+            <tr>
+                <td>10.00</td>
+                <td>11.00</td>
+            </tr>
+        </table>    
+
+        <br>
+
+        <table border="1">
+            <th></th>
+            <th>senin</th>
+            <tr>
+                <td>10.00</td>
+                <td>Berangkat sekolah</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <h4>alokasi kolom</h4>
+        <table border="1">
+            <th></th>
+            <th>senin</th>
+            <th>selasa</th>
+            <tr>
+                <td>10.00</td>
+                <td>Berangkat sekolah</td>
+                <td>Berangkat olahraga</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">12.00</td>
+                <td colspan="2">makan siang</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">makan siang</td>
+            </tr>
+        </table>
+    </body>
+</html>
